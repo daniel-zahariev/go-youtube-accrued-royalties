@@ -1,0 +1,11 @@
+build:
+  main: ./cmd/go-youtube-accrued-royalties/main.go
+  goarch:
+    - amd64
+brew:
+  github:
+    owner: daniel-zahariev
+    name: homebrew-tap
+  homepage:  https://github.com/daniel-zahariev/go-youtube-accrued-royalties
+  description: Command line tool for extracting records from YouTube accrued publishing royalties.
+  folder: Formula
